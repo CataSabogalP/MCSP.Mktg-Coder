@@ -1,0 +1,208 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0PX;
+    height: 200px;
+    background-color: black;
+}
+
+.imagen_logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*NAV*/
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+li {
+    list-style-type: none;
+    padding: 25px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+a:hover{
+    color: red;
+}
+
+/*MAIN*/
+
+body {
+    background-color: white;
+}
+
+main {
+    width: 1440px;
+    height: 521px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*TEXTOS*/
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+    h2 {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*SECCIONES*/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    margin: 15px;
+    padding: 0px;
+}
+
+.card__titulo {
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.card__texto {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card__imagenHome {
+    height: 400px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: black;
+    margin: 0px;
+    padding-top: 10px;
+    height: 110px;
+    width: 1440px;
+}
+
+footer div h3 {
+    color: white;
+}
+
+.footerLogoRedesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+/*ESPECIFICIDAD CON CLASES*/
+.ColorVino {
+    color: red;    
+}
+
+.imagen_redes {
+    width: 40px;
+    height: 40px;
+}
+
+/*PORTFOLIO*/
+
+.imagen_portfolio {
+    width: 250px;
+    height: 250px;
+}
+
+/*BLOG*/
+
+.article {
+    width: 450px;
+    margin: 15px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagenBlog {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.video {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+
+.textoBlog {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/*CONTACTO*/
+
+.formulario {
+    display: flex;
+    background-color: grey;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 900px;
+    font-size: 18px;
+}
+
+form {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
