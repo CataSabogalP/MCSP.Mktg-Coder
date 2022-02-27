@@ -9,96 +9,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<!--LINK ANIMACIONES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <!--LINK A CSS-->
     <link rel="stylesheet" href="../CSS/estilo.css">
 </head>
 <body>
 <!--INICIO ENCABEZADO-->
-<header>
-    <!--LOGO-->
-        <div>
-            <img class="imagen_logo"src="../ASSETS/IMG/LOGO.png" alt="logo">
-        </div>
-    <!--CIERRE LOGO-->
-    <!--INICIO NAV-->
-    <nav>
-    <!--LISTA NO ORDENADA-->
-        <ul class="header__nav nav--background">
-            <li class="nav__item nav__item--background"><a href="../index.html"> Home</a></li>
-            <li class="nav__item nav__item--background"><a href="./portfolio.html"> Portfolio</a></li>
-            <li class="nav__item nav__item--background"><a href="./blog.html"> Blog</a></li>
-            <li class="nav__item nav__item--background"><a href="#"> Contacto</a></li>
-        </ul>
-    </nav>
-    </header>
-    <!--CIERRE ENCABEZADO-->
-    <!--INICIO CONTENIDO-->
-    <main>
-        <div>
-            <h1 class="ColorVino">CONTACTO</h1>
-        </div>
-    <!--FORMULARIO DE CONTACTO-->
-        <div class="formulario">    
-            <form action="#">
-                <label for="nombre empresa">Nombre empresa:
-                    <input type="text" name="nombre empresa" placeholder="Escribe aqui">
-                </label>
-                <br>
-                <label for="email"> Email: 
-                    <input type="text" name="email" placeholder="Escribe tu email">
-                </label>
-                <br>
-                <label for="numero contacto">Numero contacto:
-                    <input type="number" name="Numero contacto" placeholder="Numero movil/whatsapp">
-                </label>
-                <br>
-                <label for="redes sociales">Redes sociales:
-                    <input type="text" name="Redes sociales" placeholder="Instagram">
-                    <br>
-                    <input type="text" name="Redes sociales" placeholder="Facebook">
-                    <br>
-                    <input type="text" name="Redes sociales" placeholder="URL LinkedIn">
-                </label>
-                <section> Preferencia de contacto
-                    <select name="Preferencia de contacto" id="Preferencia de contacto">
-                        <option value="Movil">Movil</option>
-                        <option value="Email">Email</option>
-                        <option value="LinkedIn"> LinkedIn</option>
-                    </select>
-                </section>
-                <section>
-                    Comentarios:
-                </section>
-                <section>
-                    <textarea name="id=" cols="30" rows="10"></textarea>
-                </section> 
-                <section>
-                    Acepto terminos y condiciones
-                    <input type="checkbox" name="acepto" value="1">
-                </section> 
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Reset">
-            </form>
-        </div>
-    </main>
-    <!--CIERRE CONTENIDO-->
-    <!--INICIO FOOTER-->
-    <footer>
-        <div>
-            <h3>Politicas legales - Derechos de autor - Proteccion de datos</h3>
-            <h3>Email: MCSP_Mkt-Coder@gmail.com</h3>
-            <h3 class="ColorVino">Barcelona</h3>
-        </div>
-    <!--REDES SOCIALES-->
-    <!--LOGOS REDES SOCIALES-->
-        <div class="footerLogoRedesSociales">
-            <a href="https://www.facebook.com/cata.sabogal.9/" target="_blank"></a><img src="./ASSETS/IMG/facebook.png" alt="Logo facebook">
-            <a href="https://www.instagram.com/cata_sabogalp/" target="_blank"></a><img src="./ASSETS/IMG/instagram.png" alt="Logo Instagram">
-            <a href="https://www.linkedin.com/in/maria-catalina-sabogal-perez-25257a97/" target="_blank"></a><img src="./ASSETS/IMG/linkedin.png" alt="Logo LinkedIn">
-        </div>
-    </footer>
-    <!--CIERRE FOOTER-->
-</body>   
+    <div class="contenedor-padre">
+            <header>
+                <div>
+                    <img class="imagen_logo animate__animated animate__swing"src="../ASSETS/IMG/LOGO.png" alt="logo">
+                </div>
+<!--INICIO NAV-->
+                <nav>
+<!--LISTA NO ORDENADA-->
+                    <ul class="header__nav nav--background">
+                        <li class="nav__item nav__item--background"><a href="../index.html"> Home</a></li>
+                        <li class="nav__item nav__item--background"><a href="./portfolio.html"> Portfolio</a></li>
+                        <li class="nav__item nav__item--background"><a href="./blog.html"> Blog</a></li>
+                        <li class="nav__item nav__item--background"><a href="#"> Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+<!--INICIO CONTENIDO-->
+            <main class="main">
+                <div class="card">
+                    <h1 class="ColorVino card__titulo transition">CONTACTO</h1>
+                </div>
+<!--FORMULARIO DE CONTACTO-->
+                <div class="formulario">    
+                    <form action="#">
+                        <label for="nombre empresa">Nombre empresa:
+                            <input type="text" name="nombre empresa" placeholder="Escribe aqui">
+                        </label>
+                        <br>
+                        <label for="email"> Email: 
+                            <input type="text" name="email" placeholder="Escribe tu email">
+                        </label>
+                        <br>
+                        <label for="numero contacto">Numero contacto:
+                            <input type="number" name="Numero contacto" placeholder="Numero movil/whatsapp">
+                        </label>
+                        <br>
+                        <label for="redes sociales">Redes sociales:
+                            <input type="text" name="Redes sociales" placeholder="Instagram">
+                        <br>
+                            <input type="text" name="Redes sociales" placeholder="Facebook">
+                        <br>
+                            <input type="text" name="Redes sociales" placeholder="URL LinkedIn">
+                        </label>
+                        <section> Preferencia de contacto
+                            <select name="Preferencia de contacto" id="Preferencia de contacto">
+                                <option value="Movil">Movil</option>
+                                <option value="Email">Email</option>
+                                <option value="LinkedIn"> LinkedIn</option>
+                            </select>
+                        </section>
+                        <section>
+                            Comentarios:
+                        </section>
+                        <section>
+                            <textarea name="id=" cols="30" rows="10"></textarea>
+                        </section> 
+                        <section>
+                            Acepto terminos y condiciones
+                            <input type="checkbox" name="acepto" value="1">
+                        </section> 
+                        <br>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Reset">
+                </form>
+            </div>
+            </main>
+    </div>   
+
+<!--INICIO FOOTER-->
+            <footer>
+                <div class="footer__encabezado--background">
+                    <h3>Politicas legales - Derechos de autor - Proteccion de datos</h3>
+                    <h3>Email: MCSP_Mkt-Coder@gmail.com</h3>
+                    <h3 class="ColorVino">Barcelona</h3>
+                </div>
+<!--REDES SOCIALES-->
+<!--LOGOS REDES SOCIALES-->
+                <div class="footerLogoRedesSociales">
+                    <a href="https://www.facebook.com/cata.sabogal.9/" target="_blank"></a><img class="imagen_redes translate" src="../ASSETS/IMG/facebook.png" alt="Logo facebook">
+                    <a href="https://www.instagram.com/cata_sabogalp/" target="_blank"></a><img class="imagen_redes translate" src="../ASSETS/IMG/instagram.png" alt="Logo Instagram">
+                    <a href="https://www.linkedin.com/in/maria-catalina-sabogal-perez-25257a97/" target="_blank"></a><img class="imagen_redes translate" src="../ASSETS/IMG/linkedin.png" alt="Logo LinkedIn">
+                </div>
+            </footer>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script> 
+    </div>
 </body>
 </html>

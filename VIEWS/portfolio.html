@@ -9,55 +9,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<!--LINK ANIMACIONES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <!--LINK A CSS-->
     <link rel="stylesheet" href="../CSS/estilo.css">
 </head>
 <body>
 <!--INICIO ENCABEZADO-->
-    <header>
-    <!--LOGO-->
-    <div>
-        <img class="imagen_logo" src="../ASSETS/IMG/LOGO.png" alt="logo">
-    </div>
-    <!--CIERRE LOGO-->
-    <!--INICIO NAV-->
-    <nav>
-    <!--LISTA NO ORDENADA-->
-        <ul class="header__nav nav--background">
-            <li class="nav__item nav__item--background"><a href="../index.html"> Home</a></li>
-            <li class="nav__item nav__item--background"><a href="#"> Portfolio</a></li>
-            <li class="nav__item nav__item--background"><a href="./blog.html"> Blog</a></li>
-            <li class="nav__item nav__item--background"><a href="./contacto.html"> Contacto</a></li>
-        </ul>
-    </nav>
-    </header>
-    <!--CIERRE ENCABEZADO-->
-    <!--INICIO CONTENIDO-->
-    <main>
-    <!--IMAGENES-->
-        <img class="imagen_portfolio" src="../ASSETS/IMG/INTLAW.jpg" alt="Abogados asesoría jurídica">
-        <img class="imagen_portfolio" src="../ASSETS/IMG/INNATE.jpg" alt="Quiropráctica y salud holística">
-        <img class="imagen_portfolio" src="../ASSETS/IMG/LA CHINATA.jpg" alt="Tienda gourmet aceite de oliva">
-        <img class="imagen_portfolio" src="../ASSETS/IMG/KUNDALINI.jpg" alt="kundalini yoga">
-        <img class="imagen_portfolio" src="../ASSETS/IMG/LOGO.png" alt="Digital marketing - Coder">
-        </main>
-    <!--CIERRE CONTENIDO-->
-    <!--INICIO FOOTER-->
-    <footer>
+    <div class="contenedor-padre">
+        <header>
+        <!--LOGO-->
         <div>
-            <h3>Politicas legales - Derechos de autor - Proteccion de datos</h3>
-            <h3>Email: MCSP_Mkt-Coder@gmail.com</h3>
-            <h3 class="ColorVino">Barcelona</h3>
+            <img class="imagen_logo animate__animated animate__swing" src="../ASSETS/IMG/LOGO.png" alt="logo">
         </div>
-    <!--REDES SOCIALES-->
-    <!--LOGOS REDES SOCIALES-->
-        <div class="footerLogoRedesSociales">
-            <a href="https://www.facebook.com/cata.sabogal.9/" target="_blank"></a><img src="./ASSETS/IMG/facebook.png" alt="Logo facebook">
-            <a href="https://www.instagram.com/cata_sabogalp/" target="_blank"></a><img src="./ASSETS/IMG/instagram.png" alt="Logo Instagram">
-            <a href="https://www.linkedin.com/in/maria-catalina-sabogal-perez-25257a97/" target="_blank"></a><img src="./ASSETS/IMG/linkedin.png" alt="Logo LinkedIn">
-        </div>
-    </footer>
-    <!--CIERRE FOOTER-->
+    
+<!--INICIO NAV-->
+        <nav>
+<!--LISTA NO ORDENADA-->
+            <ul class="header__nav nav--background">
+                <li class="nav__item nav__item--background"><a href="../index.html"> Home</a></li>
+                <li class="nav__item nav__item--background"><a href="#"> Portfolio</a></li>
+                <li class="nav__item nav__item--background"><a href="./blog.html"> Blog</a></li>
+                <li class="nav__item nav__item--background"><a href="./contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+    
+<!--INICIO CONTENIDO-->
+        <main>
+<!--IMAGENES-->
+            <div class="card-proyecto">
+                <h1 class="ColorVino card__titulo transition">Proyectos</h1>
+            </div>
+            <div>
+                <img class="imagen_portfolio" src="../ASSETS/IMG/INTLAW.jpg" alt="Abogados asesoría jurídica">
+                <img class="imagen_portfolio" src="../ASSETS/IMG/INNATE.jpg" alt="Quiropráctica y salud holística">
+                <img class="imagen_portfolio" src="../ASSETS/IMG/LA CHINATA.jpg" alt="Tienda gourmet aceite de oliva">
+                <img class="imagen_portfolio" src="../ASSETS/IMG/KUNDALINI.jpg" alt="kundalini yoga">
+                <img class="imagen_portfolio" src="../ASSETS/IMG/LOGO.png" alt="Digital marketing - Coder">
+                </div>
+        </main>
+    
+<!--INICIO FOOTER-->
+        <footer class="footer">
+            <div class="footer__encabezado--background translate-texto">
+                <h3 class=>Politicas legales - Derechos de autor - Proteccion de datos</h3>
+                <h3 class="footer__encabezado--background">Email: MCSP_Mkt-Coder@gmail.com</h3>
+                <h3 class="ColorVino">Barcelona</h3>
+            </div>
+<!--REDES SOCIALES-->
+<!--LOGOS REDES SOCIALES-->
+            <div class="footerLogoRedesSociales">
+                <a href="https://www.facebook.com/cata.sabogal.9/" target="_blank"></a><img class="imagen_redes translate" src="../ASSETS/IMG/facebook.png" alt="Logo facebook">
+                <a href="https://www.instagram.com/cata_sabogalp/" target="_blank"></a><img class="imagen_redes translate" src="../ASSETS/IMG/instagram.png" alt="Logo Instagram">
+                <a href="https://www.linkedin.com/in/maria-catalina-sabogal-perez-25257a97/" target="_blank"></a><img class="imagen_redes translate" src="../ASSETS/IMG/linkedin.png" alt="Logo LinkedIn">
+            </div>
+        </footer>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+    </div>
 </body>    
-</body>
 </html>
