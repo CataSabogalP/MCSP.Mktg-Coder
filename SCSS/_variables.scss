@@ -1,0 +1,22 @@
+$color:#000; 
+$colorLight: #fff;
+
+%titulos {
+    color: #eee;
+    font-weight: 500;
+}
+
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin reset($tamanio) {
+font-size: $tamanio;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+    
+}

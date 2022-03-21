@@ -1,0 +1,18 @@
+footer {
+    background-color: $color;
+    margin: 0px;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+
+    div h3 {
+        color: $colorLight;
+    }
+}
+
+.footerLogoRedesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
