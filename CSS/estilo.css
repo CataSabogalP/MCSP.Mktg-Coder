@@ -1,33 +1,42 @@
-.hero-section h2, .hero-section h3 {
+.hero-section h2,
+.hero-section h3 {
   color: #eee;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 /*HEADER*/
 .imagen_logo {
   width: 75px;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .hero-section {
   min-height: 100vh;
   max-height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(https://www.brother.eu/-/media/images/brother-es/blog/header-images/2016/impresion-distribuida.jpg?rev=366bea9c936a49b084dc107ae7d2fd99&mw=1170&hash=03F46E4AA11A2DFAA4237CA170910C4AC6B1CC35);
-  background-size: cover; }
-  .hero-section h1 {
-    color: #fff;
-    font-size: 30px; }
-  .hero-section h2 {
-    font-size: 40px;
-    font-weight: 700; }
-  .hero-section h3 {
-    font-size: 20px; }
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)),
+    url(https://www.brother.eu/-/media/images/brother-es/blog/header-images/2016/impresion-distribuida.jpg?rev=366bea9c936a49b084dc107ae7d2fd99&mw=1170&hash=03F46E4AA11A2DFAA4237CA170910C4AC6B1CC35);
+  background-size: cover;
+}
+.hero-section h1 {
+  color: #fff;
+  font-size: 30px;
+}
+.hero-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero-section h3 {
+  font-size: 20px;
+}
 
 /*SERVICIOS INDEX*/
 .servicios {
@@ -36,7 +45,8 @@
   grid-template-rows: auto;
   justify-items: center;
   gap: 10px;
-  padding: 30px; }
+  padding: 30px;
+}
 
 .marketing {
   display: flex;
@@ -44,79 +54,97 @@
   width: 90%;
   align-items: center;
   background-color: #eee;
-  box-shadow: 5px 5px 5px 0px rgba(43, 43, 43, 0.75); }
-  .marketing img {
-    width: 30%;
-    height: 100%;
-    object-fit: cover; }
+  box-shadow: 5px 5px 5px 0px rgba(43, 43, 43, 0.75);
+}
+.marketing img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .marketing-info {
   width: 70%;
-  padding: 30px; }
+  padding: 30px;
+}
 
 .carousel-item img {
   height: 500px;
   object-fit: cover;
-  width: 100%; }
+  width: 100%;
+}
 
 hr {
   width: 50%;
   height: 4px;
-  align-self: center; }
+  align-self: center;
+}
 
 /*FIN SERVICIOS*/
 .contenedor-padre {
   display: grid;
-  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto; }
+  grid-template-rows: auto;
+}
 
 header {
   grid-area: header;
-  width: 100%; }
+  width: 100%;
+}
 
 main {
-  grid-area: main; }
+  grid-area: main;
+}
 
 .main-index {
   display: flex;
   justify-content: space-around;
   min-height: 100vh;
-  max-height: 100%; }
+  max-height: 100%;
+}
 
 footer {
   grid-area: footer;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 /*MAIN*/
 body {
   background-color: #fff;
   width: 100%;
   min-height: 100vh;
-  max-height: 100%; }
+  max-height: 100%;
+}
 
 /*TEXTOS*/
 h1 {
   color: #000;
   font-size: 45px;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+}
 
 h2 {
   color: red;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+}
 
 h3 {
   color: #fff;
   font-size: 15px;
-  text-align: center; }
+  text-align: center;
+}
 
 p {
   color: #000;
   font-size: 20px;
-  text-align: justify; }
+  text-align: justify;
+}
 
 /*SECCIONES*/
 .card {
@@ -125,18 +153,22 @@ p {
   justify-content: center;
   width: 100%;
   margin: 10px;
-  padding: 0px; }
-  .card__titulo {
-    margin: 0px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    padding-right: 10px; }
-  .card__texto {
-    margin-top: 40px;
-    padding-left: 50px;
-    padding-right: 50px; }
-  .card__imagenHome {
-    height: 400px; }
+  padding: 0px;
+}
+.card__titulo {
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.card__texto {
+  margin-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.card__imagenHome {
+  height: 400px;
+}
 
 .banner-section {
   display: flex;
@@ -144,54 +176,65 @@ p {
   justify-content: center;
   height: 300px;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(https://www.brother.eu/-/media/images/brother-es/blog/header-images/2016/impresion-distribuida.jpg?rev=366bea9c936a49b084dc107ae7d2fd99&mw=1170&hash=03F46E4AA11A2DFAA4237CA170910C4AC6B1CC35);
-  background-size: cover; }
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)),
+    url(https://www.brother.eu/-/media/images/brother-es/blog/header-images/2016/impresion-distribuida.jpg?rev=366bea9c936a49b084dc107ae7d2fd99&mw=1170&hash=03F46E4AA11A2DFAA4237CA170910C4AC6B1CC35);
+  background-size: cover;
+}
 
 .banner-titulo {
   color: #fff;
   font-size: 50px;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 /*ESPECIFICIDAD CON CLASES*/
 .ColorVino {
-  color: #000; }
+  color: #000;
+}
 
 .imagen_redes {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+}
 
 /*PORTFOLIO*/
 .imagen_portfolio {
   width: 250px;
   height: 250px;
   margin-top: 30px;
-  padding-left: 25px; }
+  padding-left: 25px;
+}
 
 /*BLOG*/
 .article {
   width: 450px;
-  margin: 15px; }
+  margin: 15px;
+}
 
 .blog {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 .imagenBlog {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
   width: 400px;
-  height: 200px; }
+  height: 200px;
+}
 
 .video {
   margin-top: 20px;
   margin-left: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .textoBlog {
   margin-top: 15px;
-  margin-left: 15px; }
+  margin-left: 15px;
+}
 
 /*CONTACTO*/
 .formulario {
@@ -204,83 +247,109 @@ p {
   margin-bottom: 20px;
   font-size: 10px;
   width: 370px;
-  height: 430px; }
+  height: 430px;
+}
 
 form {
   margin-left: 20px;
-  padding-left: 20px; }
+  padding-left: 20px;
+}
 
 footer {
   background-color: #000;
   margin: 0px;
   padding-top: 10px;
   height: 100%;
-  width: 100%; }
-  footer div h3 {
-    color: #fff; }
+  width: 100%;
+}
+footer div h3 {
+  color: #fff;
+}
 
 .footerLogoRedesSociales {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
 
 * {
   font-size: 16px;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /*ANIMACIONES, TRNASICIONES Y TRNASFORMACIONES*/
 main {
-  background-image: linear-gradient(to left, #fff, grey, #fff); }
+  background-image: linear-gradient(to left, #fff, grey, #fff);
+}
 
 .translate {
-  transform: translate(-30px, -30px); }
+  transform: translate(-30px, -30px);
+}
 
 .transition {
   height: 100px;
   background-color: #807575;
-  transition: height 2s; }
+  transition: height 2s;
+}
 
 .transition:hover {
-  height: 300px; }
+  height: 300px;
+}
 
 @keyframes aparecerDesaparecer {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 .footer__encabezado--background {
   animation-name: aparecerDesaparecer;
   animation-timing-function: infinite;
   animation-delay: 1s;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+}
 
 /*GRIDS - MEDIA QUERIES*/
 @media only screen and (max-width: 768px) {
   .contenedor-padre {
     display: grid;
-    grid-template-areas: "header header" "main main" "main main" "main main" "footer footer";
+    grid-template-areas:
+      "header header"
+      "main main"
+      "main main"
+      "footer footer";
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto; }
+    grid-template-rows: auto;
+  }
   header {
     grid-area: header;
-    width: 100%; }
+    width: 100%;
+  }
   main {
-    grid-area: main; }
+    grid-area: main;
+  }
   footer {
     grid-area: footer;
     width: 100%;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+  }
   .marketing {
     flex-direction: column;
-    width: 100%; }
+    width: 100%;
+  }
   .marketing img {
     width: 100%;
-    height: 200px; }
+    height: 200px;
+  }
   .ubicacion img {
     flex-direction: column;
-    width: 100%; } }
+    width: 100%;
+  }
+}
