@@ -210,11 +210,6 @@ form {
   margin-left: 20px;
   padding-left: 20px; }
 
-/*UBICACION*/
-.ubicacion {
-  margin: 10px;
-  padding-left: 400px; }
-
 footer {
   background-color: #000;
   margin: 0px;
@@ -285,9 +280,7 @@ main {
     width: 100%; }
   .marketing img {
     width: 100%;
-    height: 200px; } }
-
-@media only screen and (max-width: 768px) {
-  .ubicacion {
-    margin: 10px;
-    padding-left: 400px; } }
+    height: 200px; }
+  .ubicacion img {
+    flex-direction: column;
+    width: 100%; } }

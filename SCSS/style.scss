@@ -86,12 +86,10 @@
             width: 100%;
             height: 200px;
         }
+
+        .ubicacion img {
+            flex-direction: column;
+            width: 100%;
+        }
     }  
     
-    @media only screen and (max-width: 768px) {
-
-        .ubicacion {
-            margin : 10px;   
-            padding-left: 400px
-        }
-    }
