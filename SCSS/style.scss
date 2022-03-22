@@ -86,6 +86,12 @@
             width: 100%;
             height: 200px;
         }
-
     }  
     
+    @media only screen and (max-width: 768px) {
+
+        .ubicacion {
+            margin : 10px;   
+            padding-left: 400px
+        }
+    }

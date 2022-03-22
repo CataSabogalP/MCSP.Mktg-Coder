@@ -199,7 +199,7 @@ p {
   background-color: grey;
   padding-top: 10px;
   margin-top: 25px;
-  margin-left: 50px;
+  margin-left: 550px;
   margin-right: 900px;
   margin-bottom: 20px;
   font-size: 10px;
@@ -209,6 +209,11 @@ p {
 form {
   margin-left: 20px;
   padding-left: 20px; }
+
+/*UBICACION*/
+.ubicacion {
+  margin: 10px;
+  padding-left: 400px; }
 
 footer {
   background-color: #000;
@@ -281,3 +286,8 @@ main {
   .marketing img {
     width: 100%;
     height: 200px; } }
+
+@media only screen and (max-width: 768px) {
+  .ubicacion {
+    margin: 10px;
+    padding-left: 400px; } }
